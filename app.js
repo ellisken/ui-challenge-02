@@ -1,5 +1,8 @@
 'use strict';
 
+//Add input check to text input w/validation error
+$('#text-input-error').on('')
+
 //Add toggle to checkboxes
 $('#checkbox1, #checkbox2').on('click', function(){
   if($(this).hasClass('icons-check')){
@@ -13,7 +16,9 @@ $('#checkbox1, #checkbox2').on('click', function(){
 $('#radio1, #radio2').on('click', function(){
   if($(this).hasClass('icons-radio')){
     $(this).removeClass('icons-radio').addClass('icons-radio-selected');
+    $(this).siblings('input').removeClass('icons-radio-selected').addClass('icons-radio');
   }else{
     $(this).removeClass('icons-radio-selected').addClass('icons-radio');
+    $(this).siblings('input').removeClass('icons-radio').addClass('icons-radio-selected');
   }
 });
