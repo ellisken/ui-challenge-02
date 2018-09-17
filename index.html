@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="styles/base.css" />
+  <link rel="stylesheet" type="text/css" href="styles/layout.css" />
+  <link rel="stylesheet" type="text/css" href="styles/modules.css" />
+</head>
+<body>
+  <header><h4>UI Challenge - Custom Form Elements</h4></header>
+  <form>
+    <div class="block">
+      <label for="text-input-error">text input w/ validation error</label>
+      <input type="text" id="text-input-error" placeholder="placeholder text">
+      <span>please enter a valid username</span>
+    </div>
+    <div class="block">
+      <label for="select-box">select box</label>
+      <select id="select-box" class="select-down icons-down">
+          <option value="" disabled selected>please select an option...</option>
+          <option value="option 1">option 1</option>
+          <option value="option 2">option 2</option>
+          <option value="option 3">option 3</option>
+          <option value="option 4">option 4</option>
+          <option value="option 5">option 5</option>
+        </select>
+    </div>
+    <div class="inline">
+      <label>checkbox</label>
+      <input type="checkbox" id="checkbox1" class="check icons-check">
+      <input type="checkbox" id="checkbox2" class="check icons-checked">
+    </div>
+    <div class="inline">
+        <label>radio</label>
+        <input type="radio" id="radio1" class="radio icons-radio">
+        <input type="radio" id="radio2" class="radio icons-radio-selected">
+    </div>
+    <div class="inline">
+      <label>button</label>
+      <button id="button1" type="submit" class="">submit</button>
+    </div>
+  </form>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>

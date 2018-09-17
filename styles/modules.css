@@ -1,0 +1,92 @@
+h4{
+  text-align: center;
+  text-decoration: underline;
+}
+
+form{
+  width: 100%;
+}
+
+span{
+  display: none;
+  text-align: right;
+  margin-top: -20px;
+  font-size: 0.8em;
+  color: red;
+}
+
+label{
+  font-weight: 800;
+}
+
+button{
+  height: 35px;
+  width: 90px;
+}
+
+div.block input, select{
+  display: block;
+}
+
+input, button{
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+input{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 5px 9px;
+  width: 100%;
+}
+
+div.inline label{
+  display: block;
+}
+
+.icons-check, .icons-checked,
+.icons-radio, .icons-radio-selected{
+  background-color: white;
+  background-image: url('../form-elements-sprite.png');
+  background-repeat: no-repeat;
+  background-size: 215px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.icons-check{
+  width: 27px;
+  height: 32px;
+  background-position: -23px -28px;
+}
+
+.icons-checked{
+  width: 27px;
+  height: 32px;
+  background-position: -56px -28px;
+}
+
+.icons-radio{
+  width: 27px;
+  height: 32px;
+  background-position: -85px -28px;
+}
+
+.icons-radio-selected{
+  width: 27px;
+  height: 32px;
+  background-position: -120px -28px;
+}
+
+#button1{
+  margin-right: 13px;
+  border: none;
+}
+
+.button-click{
+  border: none;
+  background-color: rgb(63, 63, 66);
+  color: white;
+}
+
