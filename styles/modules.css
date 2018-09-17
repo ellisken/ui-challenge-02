@@ -9,3 +9,9 @@ div.block input, select{
 div.inline label{
   display: block;
 }
+
+.icons-down, .icons-up, .icons-check, icons.checked,
+.icons-radio, .icons-radio-selected{
+  background-image: url('../form-elements-sprite.png');
+  background-repeat: no-repeat;
+}
