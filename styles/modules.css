@@ -3,6 +3,10 @@ h4{
   text-decoration: underline;
 }
 
+form{
+  width: 100%;
+}
+
 label{
   font-weight: 800;
 }
@@ -25,6 +29,8 @@ select, input{
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  padding: 5px 9px;
+  width: 100%;
 }
 
 div.inline label{
@@ -42,15 +48,15 @@ div.inline label{
 }
 
 .icons-down{
-  width: 100%;
+  width: 427px;
   height: 35px;
-  background-position:216px -28px;
+  background-position:234px -28px;
 }
 
 .icons-up{
-  width: 100%;
+  width: 427px;
   height: 35px;
-  background-position: 232px -28px;
+  background-position: 250px -28px;
 }
 
 .icons-check{
@@ -87,5 +93,4 @@ div.inline label{
   background-color: rgb(63, 63, 66);
   color: white;
 }
-
 
