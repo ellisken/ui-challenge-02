@@ -1,9 +1,24 @@
 h4{
   text-align: center;
+  text-decoration: underline;
+}
+
+label{
+  font-weight: 800;
+}
+
+button{
+  height: 35px;
+  width: 90px;
 }
 
 div.block input, select{
   display: block;
+}
+
+input, button{
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
 select, input{
@@ -22,6 +37,8 @@ div.inline label{
   background-image: url('../form-elements-sprite.png');
   background-repeat: no-repeat;
   background-size: 215px;
+  margin-top: 3px;
+  margin-bottom: 30px;
 }
 
 .icons-down{
@@ -58,6 +75,17 @@ div.inline label{
   width: 27px;
   height: 32px;
   background-position: -120px -28px;
+}
+
+#button1{
+  margin-right: 13px;
+  border: none;
+}
+
+#button2{
+  border: none;
+  background-color: rgb(63, 63, 66);
+  color: white;
 }
 
 
