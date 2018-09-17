@@ -33,7 +33,7 @@ input, button{
   margin-bottom: 30px;
 }
 
-select, input{
+input{
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -45,7 +45,7 @@ div.inline label{
   display: block;
 }
 
-.icons-down, .icons-up, .icons-check, .icons-checked,
+.icons-check, .icons-checked,
 .icons-radio, .icons-radio-selected{
   background-color: white;
   background-image: url('../form-elements-sprite.png');
@@ -53,18 +53,6 @@ div.inline label{
   background-size: 215px;
   margin-top: 3px;
   margin-bottom: 30px;
-}
-
-.icons-down{
-  width: 427px;
-  height: 35px;
-  background-position:234px -28px;
-}
-
-.icons-up{
-  width: 427px;
-  height: 35px;
-  background-position: 250px -28px;
 }
 
 .icons-check{
@@ -96,7 +84,7 @@ div.inline label{
   border: none;
 }
 
-#button2{
+.button-click{
   border: none;
   background-color: rgb(63, 63, 66);
   color: white;

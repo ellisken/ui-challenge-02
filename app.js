@@ -30,3 +30,9 @@ $('#radio1, #radio2').on('click', function(){
     $(this).siblings('input').removeClass('icons-radio').addClass('icons-radio-selected');
   }
 });
+
+//Add button color change
+$('#button1').on('click', function(event){
+  event.preventDefault();
+  $(this).addClass('button-click');
+})

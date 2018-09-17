@@ -14,10 +14,6 @@
   <header><h4>UI Challenge - Custom Form Elements</h4></header>
   <form>
     <div class="block">
-      <label for="text-input">text input</label>
-      <input type="text" id="text-input" placeholder="placeholder text">
-    </div>
-    <div class="block">
       <label for="text-input-error">text input w/ validation error</label>
       <input type="text" id="text-input-error" placeholder="placeholder text">
       <span>please enter a valid username</span>
@@ -25,13 +21,7 @@
     <div class="block">
       <label for="select-box">select box</label>
       <select id="select-box" class="select-down icons-down">
-        <option value="" disabled selected>please select an option...</option>
-      </select>
-    </div>
-    <div class="block">
-        <label for="select-box-open">select box - open</label>
-        <select id="select-box-open" class="select-up icons-up">
-          <option value="" disabled selected></option>
+          <option value="" disabled selected>please select an option...</option>
           <option value="option 1">option 1</option>
           <option value="option 2">option 2</option>
           <option value="option 3">option 3</option>
@@ -50,9 +40,8 @@
         <input type="radio" id="radio2" class="radio icons-radio-selected">
     </div>
     <div class="inline">
-      <label>buttons</label>
-      <button id="button1" type="submit">submit</button>
-      <button id="button2" type="submit">submit</button>
+      <label>button</label>
+      <button id="button1" type="submit" class="">submit</button>
     </div>
   </form>
   <script
