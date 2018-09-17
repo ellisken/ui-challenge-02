@@ -1,7 +1,12 @@
 'use strict';
 
 //Add input check to text input w/validation error
-$('#text-input-error').on('')
+$('#text-input-error').on('blur', function(){
+  if(!$(this).val()){
+    $(this).siblings('span').show();
+    $(this).css('border-color', 'red');
+  }
+});
 
 //Add toggle to checkboxes
 $('#checkbox1, #checkbox2').on('click', function(){
