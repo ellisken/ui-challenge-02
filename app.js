@@ -5,6 +5,9 @@ $('#text-input-error').on('blur', function(){
   if(!$(this).val()){
     $(this).siblings('span').show();
     $(this).css('border-color', 'red');
+  }else{
+    $(this).siblings('span').hide();
+    $(this).css('border-color', 'black');
   }
 });
 
